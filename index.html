@@ -1,0 +1,1434 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--====== Title ======-->
+    <title>Little Doggy</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="jsjs/jake.svg" type="image/png">
+
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Material Design Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+
+    <!--====== Jquery Ui CSS ======-->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+
+    <!--====== nice select CSS ======-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!--====== Preloader Part Start ======-->
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== Preloader Part Ends ======-->
+
+    <!--====== Navbar Style 7 Part Start ======-->
+    <div class="navigation">
+        <header class="navbar-style-7 position-relative">
+            <div class="container">
+                <!-- navbar mobile Start -->
+                <div class="navbar-mobile d-lg-none">
+                    <div class="row align-items-center">
+                        <div class="col-3">
+                            <!-- navbar cart start -->
+                            <div class="navbar-toggle icon-text-btn">
+                                <a class="icon-btn primary-icon-text mobile-menu-open-7" href="javascript:void(0)">
+                                    <i class="mdi mdi-menu"></i>
+                                </a>
+                            </div>
+                            <!-- navbar cart Ends -->
+                        </div>
+                        <div class="col-6">
+                            <!-- desktop logo Start -->
+                            <div class="mobile-logo text-center">
+                                <a href="index.html"><img src="<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px" fill-rule="nonzero"><g fill="#fcc419" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25.5,7c-10.75781,0 -19.5,8.74219 -19.5,19.5c0,2.29688 1.76953,4.13672 4,4.39844v0.51563l-4.82812,4.82813c-1.55469,1.55469 -1.55469,4.10547 0,5.66016l4.82813,4.82813v0.26953c-0.00391,0.35938 0.18359,0.69531 0.49609,0.87891c0.3125,0.17969 0.69531,0.17969 1.00781,0c0.3125,-0.18359 0.5,-0.51953 0.49609,-0.87891v-19c0,-0.55078 -0.44922,-1 -1,-1c-0.55078,0 -1,0.44922 -1,1v0.94922c-1.14844,-0.22656 -2,-1.22656 -2,-2.44922c0,-9.67578 7.82422,-17.5 17.5,-17.5c9.67578,0 17.5,7.82422 17.5,17.5c0,1.22266 -0.85156,2.22266 -2,2.44922v-0.94922c0,-0.55078 -0.44922,-1 -1,-1c-0.55078,0 -1,0.44922 -1,1v19c-0.00391,0.35938 0.18359,0.69531 0.49609,0.87891c0.3125,0.17969 0.69531,0.17969 1.00781,0c0.3125,-0.18359 0.5,-0.51953 0.49609,-0.87891v-0.26953l4.82813,-4.82812c1.55469,-1.55469 1.55469,-4.10547 0,-5.66016l-4.82812,-4.82812v-0.51562c2.23047,-0.26172 4,-2.10156 4,-4.39844c0,-10.75781 -8.74219,-19.5 -19.5,-19.5zM17,16c-2.75781,0 -5,2.24219 -5,5c0,2.75781 2.24219,5 5,5c0.12891,0 0.24609,-0.02344 0.37109,-0.03125c-0.21484,0.75781 -0.37109,1.60156 -0.37109,2.53125c0,1.66797 0.35547,3.18359 1,4.36719c0.64453,1.18359 1.67578,2.13281 3,2.13281c1.26563,0 2.27344,-0.87891 2.91406,-1.98437c0.63281,-1.08984 1.00391,-2.49219 1.07031,-4.03906c0.17188,0.01563 0.34375,0.02344 0.51563,0.02344c0.17188,0 0.34375,-0.00781 0.51563,-0.02344c0.06641,1.54688 0.4375,2.94922 1.07031,4.03906c0.64063,1.10547 1.64844,1.98438 2.91406,1.98438c1.32422,0 2.35547,-0.94922 3,-2.13281c0.64453,-1.18359 1,-2.69922 1,-4.36719c0,-0.92969 -0.15625,-1.77344 -0.37109,-2.53125c0.125,0.00781 0.24219,0.03125 0.37109,0.03125c2.75781,0 5,-2.24219 5,-5c0,-2.75781 -2.24219,-5 -5,-5c-2.625,0 -4.78125,2.03516 -4.98047,4.60938c-1.03906,-0.38672 -2.23047,-0.60937 -3.51953,-0.60937c-1.28906,0 -2.48047,0.22266 -3.51953,0.60938c-0.19922,-2.57422 -2.35547,-4.60937 -4.98047,-4.60937zM17.5,18c1.38281,0 2.5,1.11719 2.5,2.5c0,1.38281 -1.11719,2.5 -2.5,2.5c-1.38281,0 -2.5,-1.11719 -2.5,-2.5c0,-1.38281 1.11719,-2.5 2.5,-2.5zM34.5,18c1.38281,0 2.5,1.11719 2.5,2.5c0,1.38281 -1.11719,2.5 -2.5,2.5c-1.38281,0 -2.5,-1.11719 -2.5,-2.5c0,-1.38281 1.11719,-2.5 2.5,-2.5zM25.5,22c2.83203,0 4.84766,1.37891 5.47266,2.64453c0.51172,1.03906 1.02734,2.33984 1.02734,3.85547c0,1.37109 -0.31641,2.60156 -0.75391,3.41016c-0.44141,0.80859 -0.91406,1.08984 -1.24609,1.08984c-0.32031,0 -0.75391,-0.25 -1.18359,-0.98828c-0.42969,-0.73828 -0.75781,-1.875 -0.80469,-3.16406c-0.00391,-0.15234 -0.02344,-0.29297 -0.05469,-0.42578c0.66797,-0.375 1.04297,-0.88672 1.04297,-1.42187c0,-1.10547 -1.56641,-2 -3.5,-2c-1.93359,0 -3.5,0.89453 -3.5,2c0,0.52734 0.36719,1.03516 1.01953,1.41016c-0.01953,0.15234 -0.03125,0.30859 -0.03125,0.46484c-0.05078,1.27734 -0.37891,2.40234 -0.80469,3.13672c-0.42969,0.73828 -0.86328,0.98828 -1.18359,0.98828c-0.33203,0 -0.80469,-0.28125 -1.24609,-1.08984c-0.4375,-0.80859 -0.75391,-2.03906 -0.75391,-3.41016c0,-1.51562 0.51563,-2.81641 1.02734,-3.85547c0.625,-1.26562 2.64063,-2.64453 5.47266,-2.64453zM10,34.24219v2.48828l-1.63672,1.63281c-0.39063,0.39063 -0.39063,1.02344 0,1.41406l1.63672,1.63672v2.48828l-3.41406,-3.41797c-0.78906,-0.78906 -0.78906,-2.03906 0,-2.82812zM41,34.24219l3.41406,3.41406c0.78906,0.78906 0.78906,2.03906 0,2.82813l-3.41406,3.41797v-2.48828l1.63672,-1.63672c0.39063,-0.39062 0.39063,-1.02344 0,-1.41406l-1.63672,-1.63281z"></path></g></g></svg>" alt="Logo"></a>
+                            </div>
+                            <!-- desktop logo Ends -->
+                        </div>
+                        <div class="col-3">
+                            <!-- navbar cart start -->
+                            <div class="navbar-cart">
+                                <a class="icon-btn primary-icon-text icon-text-btn" href="javascript:void(0)">
+                                    <img src="assets/images/icon-svg/cart-1.svg" alt="Icon">
+                                    <span class="icon-text text-style-1">88</span>
+                                </a>
+    
+                                <div class="navbar-cart-dropdown">
+                                    <div class="checkout-style-2">
+                                        <div class="checkout-header d-flex justify-content-between">
+                                            <h6 class="title">Shopping Cart</h6>
+                                        </div>
+    
+                                        <div class="checkout-table table-responsive">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="checkout-product">
+                                                            <div class="product-cart d-flex">
+                                                                <div class="product-thumb">
+                                                                    <img src="assets/images/product-cart/product-1.png"
+                                                                        alt="Product">
+                                                                </div>
+                                                                <div class="product-content media-body">
+                                                                    <h5 class="title">
+                                                                        <a href="product-details-page.html">Hollow Port</a>
+                                                                    </h5>
+                                                                    <ul>
+                                                                        <li><span>Brown</span></li>
+                                                                        <li><span>XL</span></li>
+                                                                        <li>
+                                                                            <a class="delete" href="javascript:void(0)">
+                                                                                <i class="mdi mdi-delete"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="checkout-quantity">
+                                                            <div class="product-quantity d-inline-flex">
+                                                                <button type="button" id="sub" class="sub">
+                                                                    <i class="mdi mdi-minus"></i>
+                                                                </button>
+                                                                <input type="text" value="1">
+                                                                <button type="button" id="add" class="add">
+                                                                    <i class="mdi mdi-plus"></i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="checkout-price">
+                                                            <p class="price">$36.00</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="checkout-product">
+                                                            <div class="product-cart d-flex">
+                                                                <div class="product-thumb">
+                                                                    <img src="assets/images/product-cart/product-2.png"
+                                                                        alt="Product">
+                                                                </div>
+                                                                <div class="product-content media-body">
+                                                                    <h5 class="title">
+                                                                        <a href="product-details-page.html">Mist Black Triblend</a>
+                                                                    </h5>
+                                                                    <ul>
+                                                                        <li><span>Brown</span></li>
+                                                                        <li><span>XL</span></li>
+                                                                        <li>
+                                                                            <a class="delete" href="javascript:void(0)">
+                                                                                <i class="mdi mdi-delete"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="checkout-quantity">
+                                                            <div class="product-quantity d-inline-flex">
+                                                                <button type="button" id="sub" class="sub">
+                                                                    <i class="mdi mdi-minus"></i>
+                                                                </button>
+                                                                <input type="text" value="1">
+                                                                <button type="button" id="add" class="add">
+                                                                    <i class="mdi mdi-plus"></i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="checkout-price">
+                                                            <p class="price">$36.00</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="checkout-product">
+                                                            <div class="product-cart d-flex">
+                                                                <div class="product-thumb">
+                                                                    <img src="assets/images/product-cart/product-3.png"
+                                                                        alt="Product">
+                                                                </div>
+                                                                <div class="product-content media-body">
+                                                                    <h5 class="title">
+                                                                        <a href="product-details-page.html">Realm Bone</a>
+                                                                    </h5>
+                                                                    <ul>
+                                                                        <li><span>Brown</span></li>
+                                                                        <li><span>XL</span></li>
+                                                                        <li>
+                                                                            <a class="delete" href="javascript:void(0)">
+                                                                                <i class="mdi mdi-delete"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="checkout-quantity">
+                                                            <div class="product-quantity d-inline-flex">
+                                                                <button type="button" id="sub" class="sub">
+                                                                    <i class="mdi mdi-minus"></i>
+                                                                </button>
+                                                                <input type="text" value="1">
+                                                                <button type="button" id="add" class="add">
+                                                                    <i class="mdi mdi-plus"></i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="checkout-price">
+                                                            <p class="price">$36.00</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="checkout-product">
+                                                            <div class="product-cart d-flex">
+                                                                <div class="product-thumb">
+                                                                    <img src="assets/images/product-cart/product-4.png"
+                                                                        alt="Product">
+                                                                </div>
+                                                                <div class="product-content media-body">
+                                                                    <h5 class="title">
+                                                                        <a href="product-details-page.html">Circular Sienna</a></h5>
+                                                                    <ul>
+                                                                        <li><span>Brown</span></li>
+                                                                        <li><span>XL</span></li>
+                                                                        <li>
+                                                                            <a class="delete" href="javascript:void(0)">
+                                                                                <i class="mdi mdi-delete"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="checkout-quantity">
+                                                            <div class="product-quantity d-inline-flex">
+                                                                <button type="button" id="sub" class="sub">
+                                                                    <i class="mdi mdi-minus"></i>
+                                                                </button>
+                                                                <input type="text" value="1">
+                                                                <button type="button" id="add" class="add">
+                                                                    <i class="mdi mdi-plus"></i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="checkout-price">
+                                                            <p class="price">$36.00</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+    
+                                        <div class="checkout-footer">
+                                            <div class="checkout-sub-total d-flex justify-content-between">
+                                                <p class="value">Subtotal Price:</p>
+                                                <p class="price">$144</p>
+                                            </div>
+                                            <div class="checkout-btn">
+                                                <a href="cart-page.html" class="main-btn primary-btn-border">View Cart</a>
+                                                <a href="checkout-page.html" class="main-btn primary-btn">Checkout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- navbar cart Ends -->
+                        </div>
+                    </div>
+                    <!-- navbar search start -->
+                    <div class="navbar-search mt-15 search-style-5">
+                        <div class="search-select">
+                            <select>
+                                <option value="">All</option>
+                                <option value="1">option 01</option>
+                                <option value="2">option 02</option>
+                                <option value="3">option 03</option>
+                                <option value="4">option 04</option>
+                                <option value="5">option 05</option>
+                            </select>
+                        </div>
+                        <div class="search-input">
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <div class="search-btn">
+                            <button><i class="lni lni-search-alt"></i></button>
+                        </div>
+                    </div>
+                    <!-- navbar search Ends -->
+                </div>
+                <!-- navbar mobile Start -->
+            </div>
+    
+            <div class="navbar-container navbar-sidebar-7">
+                <!-- navbar close  Ends -->
+                <div class="navbar-close d-lg-none">
+                    <a class="close-mobile-menu-7" href="javascript:void(0)"><i class="mdi mdi-close"></i></a>
+                </div>
+                <!-- navbar close  Ends -->
+    
+                <!-- navbar top Start -->
+                <div class="navbar-top-wrapper">
+                    <div class="container-lg">
+                        <div class="navbar-top d-lg-flex justify-content-between">
+                            <!-- navbar top left Start -->
+                            <div class="navbar-top-left">
+                                <ul class="navbar-top-link">
+                                    <li><a href="about-page.html">Acerca de</a></li>
+                                    <li><a href="contact-page.html">Contacto</a></li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="mdi mdi-phone-in-talk"></i>
+                                            7-32-11-11
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- navbar top left Ends -->
+                            <!-- navbar top right Start -->
+                            <div class="navbar-top-right">
+                                <ul class="navbar-top-link">
+                                   <!-- <li>
+                                        <select>
+                                            <option value="0">$ USD</option>
+                                            <option value="1">€ EURO</option>
+                                            <option value="2">$ CAD</option>
+                                            <option value="3">₹ INR</option>
+                                            <option value="4">¥ CNY</option>
+                                            <option value="5">৳ BDT</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <select>
+                                            <option value="0">English</option>
+                                            <option value="1">Español</option>
+                                            <option value="2">Filipino</option>
+                                            <option value="3">Français</option>
+                                            <option value="4">العربية</option>
+                                            <option value="5">हिन्दी</option>
+                                            <option value="6">বাংলা</option>
+                                        </select>
+                                    </li>-->
+                                    <li><a href="login-page.html"><i class="mdi mdi-account"></i>Login</a></li>
+                                </ul>
+                            </div>
+                            <!-- navbar top right Ends -->
+                        </div>
+                    </div>
+                </div>
+                <!-- navbar top Ends -->
+    
+                <!-- main navbar Start -->
+                <div class="navbar-wrapper">
+                    <div class="container-lg">
+                        <nav class="main-navbar d-lg-flex justify-content-between align-items-center">
+                            <!-- desktop logo Start -->
+                            <div class="desktop-logo d-none d-lg-block">
+                             
+                                <a href="index.html"><img src="jsjs/jake.svg" align="left" alt="Logo"><h4>Little Doggy</h4></a>
+                                
+                    
+                            </div>
+                            <!-- desktop logo Ends -->
+                            <!-- navbar menu Start -->
+                            <div class="navbar-menu">
+                                <ul class="main-menu">
+                                    <li class="position-static menu-item-has-children">
+                                        <a href="#">Menú</a>
+                                        
+                                        <!-- sub mega dropdown Start -->
+                                        <ul class="sub-mega-dropdown">
+                                            <li>
+                                                <div class="mega-dropdown-menu">
+                                                    <ul class="container mega-dropdown d-flex flex-wrap">
+                                                        <li class="mega-dropdown-list menu-item-has-children">
+                                                            <h6 class="heading-6 font-weight-500 mega-title">Accesorios
+                                                            </h6>
+                                                            <ul>
+                                                                <li><a href="category.html">Correas</a></li>
+                                                                <li><a href="category.html">Collares</a></li>
+                                                                <li><a href="category.html">Bozales</a></li>
+                                                                <li><a href="category.html">Sueteres</a></li>
+                                                                <li><a href="category.html">Transportadoras</a></li>
+                                                                <li><a href="category.html">Juguetes</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="mega-dropdown-list menu-item-has-children">
+                                                            <h6 class="heading-6 font-weight-500 mega-title">Alimentos</h6>
+                                                            <ul>
+                                                                <li><a href="category.html">Croquetas</a></li>
+                                                                <li><a href="category.html">Sobres</a></li>
+                                                                <li><a href="category.html">Mascotas exoticas</a></li>
+                                                                <li><a href="category.html">Premios</a></li>
+                                                                <li><a href="category.html">Galletas</a></li>
+                                                        
+                                                            </ul>
+                                                        </li>
+                                                        <li class="mega-dropdown-list menu-item-has-children">
+                                                            <h6 class="heading-6 font-weight-500 mega-title">Medicamentos
+                                                            </h6>
+                                                            <ul>
+                                                                <li><a href="category.html">Vacunas</a></li>
+                                                                <li><a href="category.html">Inyecciones</a></li>
+                                                                <li><a href="category.html">Desparasitantes</a></li>
+                                                                <li><a href="category.html">Antiflamatorios</a></li>
+                                                                <li><a href="category.html">Desinfectantes</a></li>
+                                                                
+                                                            </ul>
+                                                            
+                                                        </li>
+                                                        <li class="mega-dropdown-list">
+                                                            <img src="jsjs/medicamento1.png" alt="">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+
+
+
+
+                                                
+                                            </li>
+                                        </ul>
+                                        <!-- sub mega dropdown Ends -->
+                                    
+
+
+
+                                        
+                                    </li>
+                                    
+                                    <li><a href="">Adopciones</a></li>
+                                    
+                                    <!--<li><a href="category.html">Kids</a></li>
+                                    <li><a href="category.html">Accessories</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Pages</a>
+                                         sub menu Start  
+                                        <ul class="sub-menu">
+                                            <li><a href="about-page.html">About Page</a></li>
+                                            <li><a href="account-page.html">Account Page</a></li>
+                                            <li><a href="cart-page.html">Cart Page</a></li>
+                                            <li><a href="category.html">Category Page</a></li>
+                                            <li><a href="checkout-page.html">Checkout Page</a></li>
+                                            <li><a href="contact-page.html">Contact Page</a></li>
+                                            <li><a href="login-page.html">Log In Page</a></li>
+                                            <li><a href="product-details-page.html">Product Details Page</a></li>
+                                            <li><a href="signup-page.html">Sign Up Page</a></li>
+                                        </ul> 
+                                         sub menu Ends -->
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- navbar menu Ends -->
+                            <div class="navbar-search-cart d-none d-lg-flex">
+                                <!-- navbar search start -->
+                                <div class="navbar-search search-style-5">
+                                    <div class="search-select">
+                                        <select>
+                                            <option value="">TODO</option>
+                                            <option value="1">Accesorios</option>
+                                            <option value="2">Alimentos</option>
+                                            <option value="3">Medicamentos</option>
+                                    
+                                        </select>
+                                    </div>
+                                    <div class="search-input">
+                                        <input type="text" placeholder="Buscar">
+                                    </div>
+                                    <div class="search-btn">
+                                        <button><i class="lni lni-search-alt"></i></button>
+                                    </div>
+                                </div>
+                                <!-- navbar search Ends -->
+                                <!-- navbar cart start -->
+                                <div class="navbar-cart">
+                                    <a class="icon-btn primary-icon-text icon-text-btn" href="javascript:void(0)">
+                                        <img src="assets/images/icon-svg/cart-1.svg" alt="Icon">
+                                        <span class="icon-text text-style-1">5</span>
+                                    </a>
+    
+                                    <div class="navbar-cart-dropdown">
+                                        <div class="checkout-style-2">
+                                            <div class="checkout-header d-flex justify-content-between">
+                                                <h6 class="title">Carrito de Compras</h6>
+                                            </div>
+    
+                                            <div class="checkout-table">
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="checkout-product">
+                                                                <div class="product-cart d-flex">
+                                                                    <div class="product-thumb">
+                                                                        <img src="jsjs/croquetas1.png.webp"
+                                                                            alt="Product">
+                                                                    </div>
+                                                                    <div class="product-content media-body">
+                                                                        <h5 class="title">
+                                                                            <a href="product-details-page.html">Croquetas Pedegree</a>
+                                                                        </h5>
+                                                                        <ul>
+                                                                            <li><span>Comida</span></li>
+                                                                            <li><span>4KG</span></li>
+                                                                            <li>
+                                                                                <a class="delete" href="javascript:void(0)">
+                                                                                    <i class="mdi mdi-delete"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="checkout-quantity">
+                                                                <div class="product-quantity d-inline-flex">
+                                                                    <button type="button" id="sub" class="sub">
+                                                                        <i class="mdi mdi-minus"></i>
+                                                                    </button>
+                                                                    <input type="text" value="1">
+                                                                    <button type="button" id="add" class="add">
+                                                                        <i class="mdi mdi-plus"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </td>
+                                                            <td class="checkout-price">
+                                                                <p class="price">$36.00</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="checkout-product">
+                                                                <div class="product-cart d-flex">
+                                                                    <div class="product-thumb">
+                                                                        <img src="jsjs/collar1.png"
+                                                                            alt="Product">
+                                                                    </div>
+                                                                    <div class="product-content media-body">
+                                                                        <h5 class="title">
+                                                                            <a href="product-details-page.html">Collar Perro G</a>
+                                                                        </h5>
+                                                                        <ul>
+                                                                            <li><span>Accesorios</span></li>
+                                                                            <li><span>G</span></li>
+                                                                            <li>
+                                                                                <a class="delete" href="javascript:void(0)">
+                                                                                    <i class="mdi mdi-delete"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="checkout-quantity">
+                                                                <div class="product-quantity d-inline-flex">
+                                                                    <button type="button" id="sub" class="sub">
+                                                                        <i class="mdi mdi-minus"></i>
+                                                                    </button>
+                                                                    <input type="text" value="1">
+                                                                    <button type="button" id="add" class="add">
+                                                                        <i class="mdi mdi-plus"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </td>
+                                                            <td class="checkout-price">
+                                                                <p class="price">$25.00</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="checkout-product">
+                                                                <div class="product-cart d-flex">
+                                                                    <div class="product-thumb">
+                                                                        <img src="jsjs/medicamento1.png"
+                                                                            alt="Product">
+                                                                    </div>
+                                                                    <div class="product-content media-body">
+                                                                        <h5 class="title">
+                                                                            <a href="product-details-page.html">Naxpet</a>
+                                                                        </h5>
+                                                                        <ul>
+                                                                            <li><span>Medicamento</span></li>
+                                                                            <li><span>-</span></li>
+                                                                            <li>
+                                                                                <a class="delete" href="javascript:void(0)">
+                                                                                    <i class="mdi mdi-delete"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="checkout-quantity">
+                                                                <div class="product-quantity d-inline-flex">
+                                                                    <button type="button" id="sub" class="sub">
+                                                                        <i class="mdi mdi-minus"></i>
+                                                                    </button>
+                                                                    <input type="text" value="1">
+                                                                    <button type="button" id="add" class="add">
+                                                                        <i class="mdi mdi-plus"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </td>
+                                                            <td class="checkout-price">
+                                                                <p class="price">$50.00</p>
+                                                            </td>
+                                                        </tr>
+                                                        <!--
+                                                        <tr>
+                                                            
+                                                            <td class="checkout-product">
+                                                                <div class="product-cart d-flex">
+                                                                    <div class="product-thumb">
+                                                                        <img src="assets/images/product-cart/product-4.png"
+                                                                            alt="Product">
+                                                                    </div>
+                                                                    <div class="product-content media-body">
+                                                                        <h5 class="title">
+                                                                            <a href="product-details-page.html">Circular Sienna</a>
+                                                                        </h5>
+                                                                        <ul>
+                                                                            <li><span>Brown</span></li>
+                                                                            <li><span>XL</span></li>
+                                                                            <li>
+                                                                                <a class="delete" href="javascript:void(0)">
+                                                                                    <i class="mdi mdi-delete"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        
+                                                            <td class="checkout-quantity">
+                                                                <div class="product-quantity d-inline-flex">
+                                                                    <button type="button" id="sub" class="sub">
+                                                                        <i class="mdi mdi-minus"></i>
+                                                                    </button>
+                                                                    <input type="text" value="1">
+                                                                    <button type="button" id="add" class="add">
+                                                                        <i class="mdi mdi-plus"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </td>
+                                                            <td class="checkout-price">
+                                                                <p class="price">$36.00</p>
+                                                            </td>
+                                                        </tr>
+                                                        -->
+                                                    </tbody>
+                                                </table>
+                                            </div>
+    
+                                            <div class="checkout-footer">
+                                                <div class="checkout-sub-total d-flex justify-content-between">
+                                                    <p class="value">Precio Subtotal:</p>
+                                                    <p class="price">$101</p>
+                                                </div>
+                                                <div class="checkout-btn">
+                                                    <a href="cart-page.html" class="main-btn primary-btn-border">Checar carrito</a>
+                                                    <a href="checkout-page.html" class="main-btn primary-btn">Pagar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- navbar cart Ends -->
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- main navbar Ends -->
+            </div>
+            <div class="overlay-7"></div>
+        </header>
+    </div>
+    <!--====== Navbar Style 7 Part Ends ======-->
+
+    <!--====== Header Style 1 Part Start ======-->
+    <section class="header-style-1">
+        <div class="header-big">
+            <div class="header-items-active">
+                <div class="single-header-item bg_cover"
+                    style="background-image: url(jsjs/collar2.png);">
+                    <div class="header-item-content">
+                        <h3 class="title">Collar de perro G</h3>
+                        <a href="javascript:void(0)" class="link">Collares</a>
+                    </div>
+                </div>
+                <div class="single-header-item bg_cover"
+                    style="background-image: url(jsjs/croquetas1.png.webp);">
+                    <div class="header-item-content">
+                        <h3 class="title">Croquetas Pedegree</h3>
+                        <a href="javascript:void(0)" class="link">Alimentos</a>
+                    </div>
+                </div>
+                <div class="single-header-item bg_cover"
+                    style="background-image: url(jsjs/medicamento2.png);">
+                    <div class="header-item-content">
+                        <h3 class="title">Previcox</h3>
+                        <a href="javascript:void(0)" class="link">Medicamentos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-min">
+            <div class="header-min-item product-style-25 bg_cover"
+                style="background-image: url(jsjs/bozal1.jpg);">
+                <div class="product-content">
+                    <h4 class="title"><a href="product-details-page.html">Bozal para perro</a></h4>
+                    <p>Talla M</p>
+                    <a href="javascript:void(0)" class="main-btn primary-btn-border"> <img src="assets/images/icon-svg/cart-5.svg" alt="">$
+                        399</a>
+                </div>
+            </div>
+            <div class="header-min-item product-style-25 bg_cover"
+                style="background-image: url(jsjs/transportadora1.png);">
+                <div class="product-content">
+                    <h4 class="title"><a href="product-details-page.html">Transportadora de gato</a></h4>
+                    <p>Reference 1102</p>
+                    <a href="javascript:void(0)" class="main-btn primary-btn-border"> <img src="assets/images/icon-svg/cart-5.svg" alt="">$
+                        599</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Header Style 1 Part Ends ======-->
+
+    <!--====== Content Card Style 4 Part Start ======-->
+    <section class="content-card-style-4 pt-70 pb-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-content mt-15 text-center">
+                        <div class="content-icon">
+                            <i class="mdi mdi-truck-fast"></i>
+                        </div>
+                        <div class="content-content">
+                            <h4 class="title"><a href="javascript:void(0)">Servicio a domicilio</a></h4>
+                            <p>Envios a todo México</p>
+                            <a href="javascript:void(0)" class="more">leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-content mt-15 text-center">
+                        <div class="content-icon">
+                            <i class="mdi mdi-message-text"></i>
+                        </div>
+                        <div class="content-content">
+                            <h4 class="title"><a href="javascript:void(0)">Atención al cliente</a></h4>
+                            <p>Pregunta sin compromiso</p>
+                            <a href="contact-page.html" class="more">Contactenos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-content mt-15 text-center">
+                        <div class="content-icon">
+                            <i class="mdi mdi-ticket-percent"></i>
+                        </div>
+                        <div class="content-content">
+                            <h4 class="title"><a href="javascript:void(0)">Las mejores promociones</a></h4>
+                            <p>Hasta el 30% de descuento en productos seleccionados</p>
+                            <a href="javascript:void(0)" class="more">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Content Card Style 4 Part Ends ======-->
+
+    <!--====== Product Style 1 Part Start ======-->
+
+    <section class="product-wrapper pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="mb-50">
+                        <h1 class="heading-1 font-weight-700">Mascotas en Adopción</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="product-style-1 mt-30">
+                        <div class="product-image">
+                           <!-- <span class="icon-text text-style-1">NEW</span>-->
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="jsjs/chihuahua.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="jsjs/Chihuahua2.jpg" alt="product">
+                                </div>
+                            </div>
+                            <a class="add-wishlist" href="javascript:void(0)">
+                                <i class="mdi mdi-heart-outline"></i>
+                            </a>
+                        </div>
+                        <div class="product-content text-center">
+                            <h4 class="title"><a href="product-details-page.html">Atom</a></h4>
+                           <!-- <p>Reference 1102</p>-->
+                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
+                                <img src="jsjs/map.svg" alt="">
+                                Lerdo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="product-style-1 mt-30">
+                        <div class="product-image">
+                           <!-- <span class="icon-text text-style-1">20% off</span>-->
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="jsjs/danes.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="jsjs/danes2.jpg" alt="product">
+                                </div>
+                            </div>
+                            <a class="add-wishlist" href="javascript:void(0)">
+                                <i class="mdi mdi-heart-outline"></i>
+                            </a>
+                        </div>
+                        <div class="product-content text-center">
+                            <h4 class="title"><a href="product-details-page.html">Shaggy</a></h4>
+                            <!--<p>Reference 1103</p>-->
+                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
+                                <img src="jsjs/map.svg" alt="">
+                                Torreón
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="product-style-1 mt-30">
+                        <div class="product-image">
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="jsjs/boxer.jpeg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="jsjs/boxer2.jpg" alt="product">
+                                </div>
+                            </div>
+                            <a class="add-wishlist" href="javascript:void(0)">
+                                <i class="mdi mdi-heart-outline"></i>
+                            </a>
+                        </div>
+                        <div class="product-content text-center">
+                            <h4 class="title"><a href="product-details-page.html">Rex</a></h4>
+                            <!--<p>Reference 1112</p>-->
+                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
+                                <img src="jsjs/map.svg" alt="">
+                                Gómez Palacio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="product-style-1 mt-30">
+                        <div class="product-image">
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="jsjs/dalmata.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="jsjs/dalmata2.jpg" alt="product">
+                                </div>
+                            </div>
+                            <a class="add-wishlist" href="javascript:void(0)">
+                                <i class="mdi mdi-heart-outline"></i>
+                            </a>
+                        </div>
+                        <div class="product-content text-center">
+                            <h4 class="title"><a href="product-details-page.html">Manchas</a></h4>
+                            <!--<p>Reference 102</p>-->
+                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
+                                <img src="jsjs/map.svg" alt="">
+                                Torreón
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="product-style-1 mt-30">
+                        <div class="product-image">
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="jsjs/husky.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="jsjs/husky2.jpg" alt="product">
+                                </div>
+                            </div>
+                            <a class="add-wishlist" href="javascript:void(0)">
+                                <i class="mdi mdi-heart-outline"></i>
+                            </a>
+                        </div>
+                        <div class="product-content text-center">
+                            <h4 class="title"><a href="product-details-page.html">Max</a></h4>
+                            <!--<p>Reference 1202</p>-->
+                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
+                                <img src="jsjs/map.svg" alt="">
+                                Gómez Palacio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="product-style-1 mt-30">
+                        <div class="product-image">
+                            <!--<span class="icon-text text-style-1">40% off</span>-->
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="jsjs/cruza.jpg" alt="product">
+                                </div>
+                                
+                                <div class="product-item">
+                                    <img src="jsjs/cruza2.jfif" alt="product">
+                                </div>
+                            </div>
+                            <a class="add-wishlist" href="javascript:void(0)">
+                                <i class="mdi mdi-heart-outline"></i>
+                            </a>
+                        </div>
+                        <div class="product-content text-center">
+                            <h4 class="title"><a href="product-details-page.html">Chilaquil</a></h4>
+                            <!--<p>Reference 112</p>-->
+                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
+                                <img src="jsjs/map.svg" alt="">
+                                Lerdo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Product Style 1 Part Ends ======-->
+
+    
+    <!--====== Product Style 7 Part Start ======-->
+    <!--
+    <section class="product-wrapper pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="mb-50">
+                        <h1 class="heading-1 font-weight-700">Recent Items</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="product-style-7 mt-30">
+                        <div class="product-image">
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="assets/images/product-4/product-1.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="assets/images/product-4/product-2.jpg" alt="product">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <ul class="product-meta">
+                                <li>
+                                    <a class="add-wishlist" href="javascript:void(0)">
+                                        <i class="mdi mdi-heart-outline"></i>
+                                        Add to Favorite
+                                    </a>
+                                </li>
+                                <li>
+                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
+                                </li>
+                            </ul>
+                            <h4 class="title"><a href="product-details-page.html">Metro 38 Date</a></h4>
+                            <p>Reference 1102</p>
+                            <span class="price">$ 399</span>
+                            <a href="javascript:void(0)" class="main-btn primary-btn">
+                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
+                                Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-style-7 mt-30">
+                        <div class="product-image">
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="assets/images/product-4/product-3.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="assets/images/product-4/product-4.jpg" alt="product">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <ul class="product-meta">
+                                <li>
+                                    <a class="add-wishlist" href="javascript:void(0)">
+                                        <i class="mdi mdi-heart-outline"></i>
+                                        Add to Favorite
+                                    </a>
+                                </li>
+                                <li>
+                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
+                                </li>
+                            </ul>
+                            <h4 class="title"><a href="product-details-page.html">Man's Shoe</a></h4>
+                            <p>Reference 1102</p>
+                            <span class="price">$ 399</span>
+                            <a href="javascript:void(0)" class="main-btn primary-btn">
+                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
+                                Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-style-7 mt-30">
+                        <div class="product-image">
+                            <span class="icon-text text-style-1">20% off</span>
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="assets/images/product-4/product-5.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="assets/images/product-4/product-6.jpg" alt="product">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <ul class="product-meta">
+                                <li>
+                                    <a class="add-wishlist" href="javascript:void(0)">
+                                        <i class="mdi mdi-heart-outline"></i>
+                                        Add to Favorite
+                                    </a>
+                                </li>
+                                <li>
+                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
+                                </li>
+                            </ul>
+                            <h4 class="title"><a href="product-details-page.html">Lotto T Shirt</a></h4>
+                            <p>Reference 1102</p>
+                            <span class="price">$ 399</span>
+                            <a href="javascript:void(0)" class="main-btn primary-btn">
+                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
+                                Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-style-7 mt-30">
+                        <div class="product-image">
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="assets/images/product-4/product-7.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="assets/images/product-4/product-8.jpg" alt="product">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <ul class="product-meta">
+                                <li>
+                                    <a class="add-wishlist" href="javascript:void(0)">
+                                        <i class="mdi mdi-heart-outline"></i>
+                                        Add to Favorite
+                                    </a>
+                                </li>
+                                <li>
+                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
+                                </li>
+                            </ul>
+                            <h4 class="title"><a href="product-details-page.html">Smart Watch</a></h4>
+                            <p>Reference 1102</p>
+                            <span class="price">$ 399</span>
+                            <a href="javascript:void(0)" class="main-btn primary-btn">
+                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
+                                Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-style-7 mt-30">
+                        <div class="product-image">
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="assets/images/product-4/product-9.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="assets/images/product-4/product-10.jpg" alt="product">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <ul class="product-meta">
+                                <li>
+                                    <a class="add-wishlist" href="javascript:void(0)">
+                                        <i class="mdi mdi-heart-outline"></i>
+                                        Add to Favorite
+                                    </a>
+                                </li>
+                                <li>
+                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
+                                </li>
+                            </ul>
+                            <h4 class="title"><a href="product-details-page.html">Smart Gadget</a></h4>
+                            <p>Reference 1102</p>
+                            <span class="price">$ 399</span>
+                            <a href="javascript:void(0)" class="main-btn primary-btn">
+                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
+                                Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-style-7 mt-30">
+                        <div class="product-image">
+                            <span class="icon-text text-style-1">Out Of Stoke</span>
+                            <div class="product-active">
+                                <div class="product-item active">
+                                    <img src="assets/images/product-4/product-11.jpg" alt="product">
+                                </div>
+                                <div class="product-item">
+                                    <img src="assets/images/product-4/product-12.jpg" alt="product">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <ul class="product-meta">
+                                <li>
+                                    <a class="add-wishlist" href="javascript:void(0)">
+                                        <i class="mdi mdi-heart-outline"></i>
+                                        Add to Favorite
+                                    </a>
+                                </li>
+                                <li>
+                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
+                                </li>
+                            </ul>
+                            <h4 class="title"><a href="product-details-page.html">Polo Cap</a></h4>
+                            <p>Reference 1102</p>
+                            <span class="price">$ 399</span>
+                            <a href="javascript:void(0)" class="main-btn primary-btn">
+                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
+                                Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!--====== Product Style 7 Part Ends ======-->
+    
+
+    <!--====== Features Part Start ======-->
+    <!--
+    <section class="features-section pt-100 pb-50 gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="features-title text-center mb-50">
+                        <h1 class="heading-1 font-weight-700">Awesome Features</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature-wrapper">
+                        <div class="feature-icon">
+                            <i class="lni lni-cog"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="heading-5 font-weight-500 mb-10">Bootstrap 5</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quos iste veniam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature-wrapper">
+                        <div class="feature-icon">
+                            <i class="lni lni-code"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="heading-5 font-weight-500 mb-10">Clean Design</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quos iste veniam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature-wrapper">
+                        <div class="feature-icon">
+                            <i class="lni lni-layers"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="heading-5 font-weight-500 mb-10">Included Business Pages</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quos iste veniam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature-wrapper">
+                        <div class="feature-icon">
+                            <i class="lni lni-laptop-phone"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="heading-5 font-weight-500 mb-10">Fully Responsive</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quos iste veniam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature-wrapper">
+                        <div class="feature-icon">
+                            <i class="lni lni-brush"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="heading-5 font-weight-500 mb-10">Completely Customizable</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quos iste veniam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature-wrapper">
+                        <div class="feature-icon">
+                            <i class="lni lni-rocket"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="heading-5 font-weight-500 mb-10">Fast and Well-optimized</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quos iste veniam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!--====== Features Part Ends ======-->
+
+    <!--====== Clients Logo Part Start ======-->
+    <!--
+    <section class="clients-logo-section pt-70 pb-70">
+        <div class="container">
+            <div class="row client-logo-active">
+                <div class="col-lg-3">
+                    <div class="single-logo-wrapper">
+                        <img src="assets/images/client-logo/uideck-logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-logo-wrapper">
+                        <img src="assets/images/client-logo/graygrids-logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-logo-wrapper">
+                        <img src="assets/images/client-logo/lineicons-logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-logo-wrapper">
+                        <img src="assets/images/client-logo/pagebulb-logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!--====== Clients Logo Part Ends ======-->
+
+    <!--====== Subscribe Part Start ======-->
+    <!--
+    <section class="subscribe-section pt-70 pb-70 bg-primary-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+                    <div class="heading text-center">
+                        <h1 class="heading-1 font-weight-700 text-white mb-10">You are using free lite version</h1>
+                        <p class="gray-3">Please, purchase full version of the template to get all pages, sections, features and permission to remove footer credits.</p>
+                        </br>
+                        <a href="https://rebrand.ly/estore-gg" rel="nofollow" target="_blank" class="main-btn secondary-1-btn">
+                                <img src="assets/images/icon-svg/cart-7.svg" alt="">
+                                PURCHASE NOW
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!--====== Subscribe Part Ends ======-->
+
+    <!--====== Footer Style 3 Part Start ======-->
+    <section class="footer-style-3 pt-100 pb-100">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-7 col-sm-10">
+                        <div class="footer-logo text-center">
+                            <a href="index.html">
+                                <img src="jsjs/jake.svg" alt="">
+                            </a>
+                        </div>
+                        <h5 class="heading-5 text-center mt-30">Siguenos en nuestras redes sociales</h5>
+                        <ul class="footer-follow text-center">
+                            <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="lni lni-twitter-filled"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="lni lni-instagram-original"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="lni lni-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    <!--
+            <div class="footer-widget-wrapper text-center pt-20">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="footer-widget">
+                            <h5 class="footer-title">PRODUCT</h5>
+    
+                            <ul class="footer-link">
+                                <li><a href="javascript:void(0)">Quest</a></li>
+                                <li><a href="javascript:void(0)">Rift S</a></li>
+                                <li><a href="javascript:void(0)">Gear VR</a></li>
+                                <li><a href="javascript:void(0)">Apps and Games</a></li>
+                                <li><a href="javascript:void(0)">Apps and Games</a></li>
+                                <li><a href="javascript:void(0)">Oculus for Business</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="footer-widget">
+                            <h5 class="footer-title">DEVELOPERS</h5>
+    
+                            <ul class="footer-link">
+                                <li><a href="javascript:void(0)">Developer Centre</a></li>
+                                <li><a href="javascript:void(0)">Docs</a></li>
+                                <li><a href="javascript:void(0)">Downloads</a></li>
+                                <li><a href="javascript:void(0)">Tools</a></li>
+                                <li><a href="javascript:void(0)">Developer Blog</a></li>
+                                <li><a href="javascript:void(0)">Developer Forums</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="footer-widget">
+                            <h5 class="footer-title">PRODUCT</h5>
+    
+                            <ul class="footer-link">
+                                <li><a href="javascript:void(0)">Blog</a></li>
+                                <li><a href="javascript:void(0)">Careers</a></li>
+                                <li><a href="javascript:void(0)">Brand Centre</a></li>
+                                <li><a href="javascript:void(0)">Connect</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="footer-widget">
+                            <h5 class="footer-title">PRODUCT</h5>
+    
+                            <ul class="footer-link">
+                                <li><a href="javascript:void(0)">VR for Good</a></li>
+                                <li><a href="javascript:void(0)">Launch Pad</a></li>
+                                <li><a href="javascript:void(0)">Creators Lab</a></li>
+                                <li><a href="javascript:void(0)">Forums</a></li>
+                                <li><a href="javascript:void(0)">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    -->
+    <!--
+            <div class="footer-copyright text-center">
+                <p>Developed by <a href="https://graygrids.com/" rel="nofollow" target="_blank">GrayGrids</a>. Basesd on <a href="https://ecommercehtml.com/" rel="nofollow" target="_blank">eCommerceHTML</a>
+                </p>
+        </div>
+    </section>
+-->
+    <!--====== Footer Style 3 Part Ends ======-->
+
+    <!--====== Bootstrap 5 js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Accordion Steps Form js ======-->
+    <script src="assets/js/jquery-vj-accordion-steps.js"></script>
+
+    <!--====== Jquery Ui js ======-->
+    <script src="assets/js/jquery-ui.min.js"></script>
+
+    <!--====== Form validator js ======-->
+    <script src="assets/js/jquery.form-validator.min.js"></script>
+
+    <!--====== nice select js ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <!--====== formatter js ======-->
+    <script src="assets/js/jquery.formatter.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/count-up.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
