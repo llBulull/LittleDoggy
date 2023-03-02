@@ -4038,7 +4038,7 @@ p {
 }
 
 .search-style-5 .search-btn button {
-  background-color: #542DED;
+  background-color: #00D4E0;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -4047,6 +4047,10 @@ p {
   border: 0;
   border-radius: 4px;
   margin-left: -2px;
+}
+
+.color-base{
+  color: #00D4E0
 }
 
 .search-style-5.search-dark .nice-select {
@@ -6437,7 +6441,7 @@ p {
 }
 
 .content-card-style-4 .single-content .content-content .more {
-  color: #542DED;
+  color: #00D4E0;
   text-transform: uppercase;
   margin-top: 32px;
   font-weight: 500;
