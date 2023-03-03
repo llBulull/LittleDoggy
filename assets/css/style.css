@@ -1201,8 +1201,8 @@ p {
 
 .primary-icon-border,
 .primary-btn-border {
-  border: 1px solid #542DED;
-  color: #542DED;
+  border: 1px solid #00D4E0;
+  color: #00D4E0;
   line-height: 38px;
 }
 
@@ -4847,7 +4847,7 @@ p {
 }
 
 .navbar-style-7 .navbar-container .main-navbar .navbar-menu .main-menu li:hover > a {
-  background-color: #542DED;
+  background-color: #00D4E0;
   color: #fff;
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.32);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.32);
